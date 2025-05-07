@@ -1,0 +1,425 @@
+#header {
+    display: flex;
+    justify-content: space-between; /* Pushes logo to the right */
+    align-items: center; /* Vertically center items */
+    padding: 10px 60px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style the logo image */
+#logo {
+    height: 200px; /* Adjust size as needed */
+    width: auto;
+}
+
+body {
+    margin: 0px;
+    background-image: url(media/ChatGPT\ Image\ 29\ apr.\ 2025\ 19_43_06.png);
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px; /* Adds space between nav items */
+    padding-left: 20px;
+    height: 60px; 
+    border: solid black 3px;
+
+}
+
+
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0 20px; /* Add some horizontal spacing */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text */
+    display: block;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.navbar a:hover {
+    background-color: rgb(54, 53, 53);
+    color: white;
+}
+
+
+
+
+.parent1{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 5px;    
+    height: 300vh;
+    margin:30px;
+    
+}
+
+#div1{
+    grid-column: 1/8;
+    grid-row: 1/6;
+    margin: 10px;
+    background-image: url(media/iphone-16-finish-select-202409-6-1inch_GEO_EMEA_FMT_WHH\ \(1\).png);
+    background-size: 170% 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid black 3px;
+    border-radius: 8px;
+
+    
+}
+
+
+#div2{
+   display: block;
+    grid-column: 1/5;
+    grid-row: 6/7;
+    margin: 10px;
+    background-color: grey;
+    text-decoration: none;   
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.4;
+    border: solid black 3px;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#div2 a:link,
+#div2 a:visited,
+#div2 a:active {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+
+    
+}
+
+#div2 a:hover{
+    color: rgb(211, 211, 211);
+    text-decoration: none;   
+
+
+}
+
+#div3{
+    display: flex;
+    grid-column: 1/3;
+    grid-row:7/8;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#div4{
+    grid-column: 8/15;
+    grid-row:1/3;
+    background-color: grey;
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+    border: solid black 3px;
+
+}
+
+
+#div5{
+    display: flex;
+    grid-column: 8/15;
+    grid-row:3/5;
+    background-color: grey;
+    margin: 10px;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: solid black 3px;
+
+
+
+}
+
+
+#div6{
+    display: flex;
+    grid-column: 8/15;
+    grid-row:5/7;
+    background-color: grey;
+    margin: 10px;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: solid black 3px;
+
+}
+
+
+
+#div7{
+    grid-column: 1/6;
+    grid-row: 8/12;
+    background-color: green;
+    margin: 10px;
+    background-image: url(media/CMC_1384.png);
+    background-size: 100% 100%;
+    border: solid black 3px;
+    border-radius: 8px;
+
+}
+
+#div8{
+    grid-column: 6/13;
+    grid-row: 8/12;
+    background-color: green;
+    margin: 10px;
+    background-image: url(media/elon-muskk.png);
+    background-size: 100% 100%;
+    border: solid black 3px;
+    border-radius: 8px;
+
+}
+
+#div9{
+    grid-column:1/6;
+    grid-row:12/13;
+    margin: 10px;
+    background-color: grey;
+    text-decoration: none;   
+    font-size: 35px;
+    line-height: 1.4;
+    border: solid black 3px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#div9 a:link,
+#div9 a:visited,
+#div9 a:active {
+    color: rgb(0, 0, 0);
+    text-decoration: none;   
+
+    
+}
+
+#div9 a:hover{
+    color: rgb(212, 207, 207);
+    text-decoration: none;   
+
+
+}
+
+
+
+
+#div10{
+    
+    grid-column:6/13;
+    grid-row:12/13;
+    margin: 10px;
+    background-color: grey;
+    text-decoration: none;   
+    font-size: 35px;
+    line-height: 1.4;
+    border: solid black 3px;
+    text-align: center;
+    text-decoration: none;  
+    border-radius: 8px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#div10 a:link,
+#div10 a:visited,
+#div10 a:active {
+    color: rgb(10, 10, 10);
+    text-decoration: none;   
+
+    
+}
+
+#div10 a:hover{
+    color: rgb(212, 207, 207);
+    text-decoration: none;   
+
+
+}
+
+#div11{
+    grid-column: 1/6;
+    grid-row: 14/18;
+    margin: 10px;
+    background-image: url(media/0_c-PJKeN6JqEUKyZ8.png);
+    background-size: 100% 100%;
+    border: solid black 3px;
+    border-radius: 8px;
+
+}
+
+#div12{
+    grid-column:1/6;
+    grid-row:18/19;
+    margin: 10px;
+    background-color: grey;
+    text-decoration: none;   
+    font-size: 35px;
+    line-height: 1.4;
+    border: solid black 3px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+}
+
+#div12 a:link,
+#div12 a:visited,
+#div12 a:active {
+    color: rgb(0, 0, 0);
+    text-decoration: none;   
+
+    
+}
+
+#div12 a:hover{
+    color: rgb(212, 207, 207);
+    text-decoration: none;   
+
+
+}
+
+
+#div13{
+    grid-column: 6/13;
+    grid-row: 14/18;
+    background-color: green;
+    margin: 10px;
+    background-image: url(media/favorite-ipad-pro-apps-bgr-1-.png);
+    background-size: 100% 100%;
+    border: solid black 3px;
+    border-radius: 8px;
+
+    
+}
+
+#div14{
+    grid-column:6/13;
+    grid-row:18/19;
+    margin: 10px;
+    background-color: grey;
+    text-decoration: none;   
+    font-size: 35px;
+    line-height: 1.4;
+    border: solid black 3px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+}
+
+#div14 a:link,
+#div14 a:visited,
+#div14 a:active {
+    color: rgb(0, 0, 0);
+    text-decoration: none;   
+
+    
+}
+
+#div14 a:hover{
+    color: rgb(212, 207, 207);
+    text-decoration: none;   
+
+
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#Depsek{
+    height: 135px;
+    width: 350px;
+    background-color: rgb(197, 195, 195);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#S25{
+    height: 135px;
+    width: 347px;
+    background-color: rgb(197, 195, 195);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#applevision{
+    height: 135px;
+    width: 350px;
+    background-color: rgb(197, 195, 195);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#Depsek:hover{
+    color: white;
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#S25:hover{
+    color: white;
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#applevision:hover{
+    color: white;
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url(media/ChatGPT\ Image\ 29\ apr.\ 2025\ 19_43_06.png);
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.image-frame {
+    width: 60%;
+    height: 300px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#design-image{
+    background-image: url(media/geforce-rtx-4090-product-gallery-full-screen-3840-3.pg.jpg);
+    background-size: 100% 100%;
+}
+
+#performance-image{
+    background-image: url(media/4090-PPRO.png);
+    background-size: 100% 100%;
+}
+
+#cooling-image{
+    background-image: url(media/nvidia-ceo-jensen-huang-with-geforce-rtx-4090.png);
+    background-size: 100% 100%;
+    width: 450px;
+
+}
+
+#features-image{
+    background-image: url(media/nvidia-geforce-rtx-the-ultimate-gaming-platform.png);
+    background-size: 100% 100%;
+}
+
+
