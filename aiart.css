@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4a3e3e;
+    color: #333;
+    text-align: flex-start;
+}
+
+header {
+    background-color: #94a9be;
+    color: rgb(63, 53, 53);
+    padding: 20px;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    background: rgb(242, 238, 238);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #313d49;
+}
+
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.image-container {
+    width: 500px;
+    height: 300px;
+    }
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+}
+    
+
+#div8 {
+background-image: url(00_031725_EzekielGillespie_01.jpg);
+background-size: 500px 300px;
+opacity: 1;
+}
+
+    

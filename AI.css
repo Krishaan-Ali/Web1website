@@ -1,4 +1,236 @@
 .ArtificialIntelligence{
-   height: 300px;
-    background-color: brown;
+    height: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(207, 194, 194);
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+#heading{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    padding:0px;
+   
+
+}
+
+
+body{
+background-image: url(ChatGPT\ Image\ 29\ apr.\ 2025\ 19_43_06.png);
+margin: 0px;
+
+}
+
+  
+  
+
+.div{
+width: 475px;
+height: 215px;
+background-color: black;
+
+}
+
+#div1 {
+background-image: url(chinas-deekseek-aims-to-rival-openais-reasoning-model-showcase_image-6-a-26883.png);
+background-size: 475px 215px;
+opacity: 1; 
+
+
+}
+
+#div2 {
+background-image: url(Generative-AI-and-its-Business-Applications-1200x800-1.png);
+height: 215px;
+width: 475px;
+background-repeat: no-repeat;
+opacity: 1; 
+
+}
+
+#div3 {
+background-image: url(elon-musk-ai-human-machines-artificial-intelligence-tesla-933x445-1280x720-1-1080x675.png);
+background-size: 475px 215px;
+opacity: 1;
+}
+
+#div4{
+background-image: url(OpenAI.jpg); 
+background-size: 475px 215px;
+opacity: 1;
+}
+
+#div5{
+background-image: url(GOnnwETgtf.jpeg);
+background-size: 475px 215px;
+opacity: 1;
+}
+
+#div6{
+background-size: 475px 215px;
+opacity: 1;
+background-image: url(Technewspic6.webp)
+}
+
+#div7{
+background-size: 475px 215px;
+opacity: 1;
+background-image: url(AIpicbrrrbääh.webp)
+}
+
+#div8{
+background-size: 475px 215px;
+opacity: 1;
+background-image: url(AIpicman.webp)
+}
+
+#div9{
+    background-size: 475px 215px;
+    opacity: 1;
+    background-image: url(AImarkzuckerberg.png)
+}
+
+    
+
+.div {
+    width: 475px;
+    height: 215px;
+    background-color: black;
+    background-size: 475px 215px;
+    opacity: 1;
+
+    /* Add these for padding effect */
+    padding: 10px;
+    box-sizing: border-box;
+
+    /* Light black border and subtle shadow */
+    border: 5px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.grid-container {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+  }
+  
+  .text-grid {
+    width: 475px;
+    height: 60px;
+    background-color: #151313;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: #f1ecec;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px; /* Adds space between nav items */
+    padding-left: 20px;
+    height: 60px;
+    border: solid black 3px;
+
+
+}
+
+
+
+
+
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0 20px; /* Add some horizontal spacing */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text */
+    display: block;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+.navbar a:hover {
+    background-color: rgb(54, 53, 53);
+    color: white;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px; /* Adds space between nav items */
+    padding-left: 20px;
+    height: 60px;
+    border: solid black 3px;
+
+
+}
+
+
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0 20px; /* Add some horizontal spacing */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text */
+    display: block;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+.navbar a:hover {
+    background-color: rgb(54, 53, 53);
+    color: white;
+}
+
+
+
+a{
+    text-decoration: none;
+
+
+}
+
+#latest {
+    background-color: grey;
+    height:60px;
+    width: 250px;
+    color:white;
+
+
+}
+
+
+#gaming {
+    background-color: grey;
+    height:60px;
+    width: 250px;
+    color:white;
+
+
 }
